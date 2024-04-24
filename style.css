@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color:#987259;
+}
+
+header {
+    background-color:#edeeed;
+    padding: 18px;
+    box-shadow: 1px 1px 4px black;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: "Allura", cursive;
+    font-weight: 400;
+    font-size: 40px;
+}
