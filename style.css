@@ -30,13 +30,15 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 450px;
 }
 
 .conteudo-principal {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 500px;
+    height: 450px;
+    
 }
 
 .carrosel {
@@ -52,4 +54,29 @@ main {
 .trufas-carrosel {
     border-radius: 10px;
     width: 250px;
+}
+
+.texto {
+    text-align: center;
+    font-size: 18px;
+}
+
+.botao-pedido {
+    border: none;
+    border-radius: 10px;
+    background-color: #987259;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top:50px;
+    padding: 10px;
+    width: 180px;
+    font-size: 15px;
+}
+
+footer {
+    color: #edeeed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
 }
